@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Raleway"
+  />
+  <style>
+    .w3-quarter img {
+      margin-bottom: -6px;
+      cursor: pointer;
+    }
+    .w3-quarter img:hover {
+      opacity: 0.6;
+      transition: 0.3s;
+    }
+  </style>
+  <body class="w3-light-grey">
+    <!-- Sidebar/menu -->
+    <nav
+      class="w3-sidebar w3-bar-block w3-black w3-animate-right w3-top w3-text-light-grey w3-large"
+      style="
+        z-index: 3;
+        width: 250px;
+        font-weight: bold;
+        display: none;
+        right: 0;
+      "
+      id="mySidebar"
+    >
+      <a
+        href="javascript:void()"
+        onclick="w3_close()"
+        class="w3-bar-item w3-button w3-center w3-padding-32"
+        >CLOSE</a
+      >
+      <a
+        href="#"
+        onclick="w3_close()"
+        class="w3-bar-item w3-button w3-center w3-padding-16"
+        >PORTFOLIO</a
+      >
+      <a
+        href="#about"
+        onclick="w3_close()"
+        class="w3-bar-item w3-button w3-center w3-padding-16"
+        >ABOUT ME</a
+      >
+      <a
+        href="#contact"
+        onclick="w3_close()"
+        class="w3-bar-item w3-button w3-center w3-padding-16"
+        >CONTACT</a
+      >
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
+      <span class="w3-left w3-padding">SOME NAME</span>
+      <a
+        href="javascript:void(0)"
+        class="w3-right w3-button w3-white"
+        onclick="w3_open()"
+        >☰</a
+      >
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div
+      class="w3-overlay w3-animate-opacity"
+      onclick="w3_close()"
+      style="cursor: pointer;"
+      title="close side menu"
+      id="myOverlay"
+    ></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div
+      class="w3-main w3-content"
+      style="max-width: 1600px; margin-top: 83px;"
+    >
+      <!-- Photo grid -->
+
+      <!-- Pagination -->
+
+      <!-- Modal for full size images on click-->
+
+      <!-- About section -->
+
+      <!-- Contact section -->
+      <link
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+        rel="stylesheet"
+      />
+      <div class="container" style="margin-left: 22%; margin-right: 22%;">
+        <div class="row bootstrap snippets bootdeys">
+          <div class="col-md-9 col-sm-7">
+            <h2>Members</h2>
+          </div>
+          <div class="col-md-3 col-sm-5">
+            <form method="get" role="form" class="search-form-full">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="s"
+                  id="search-input"
+                  placeholder="Search..."
+                />
+                <i class="entypo-search"></i>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="member-entry">
+          <a href="#" class="member-img">
+            <img
+              src="https://bootdey.com/img/Content/avatar/avatar1.png"
+              class="img-rounded"
+            />
+            <i class="fa fa-forward"></i>
+          </a>
+          <div class="member-details">
+            <h4><a href="#">Johnnie Linton</a></h4>
+            <div class="row info-list">
+              <div class="col-sm-4">
+                <i class="fa fa-briefcase"></i>
+                Co-Founder at <a href="#">Complete Tech</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-twitter"></i>
+                <a href="#">@johnnie</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-facebook"></i>
+                <a href="#">fb.me/johnnie</a>
+              </div>
+              <div class="clear"></div>
+              <div class="col-sm-4">
+                <i class="fa fa-location"></i>
+                <a href="#">Prishtina</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-envelope"></i>
+                <a href="#">john@gmail.com</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-linkedin"></i>
+                <a href="#">johnkennedy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="member-entry">
+          <a href="#" class="member-img">
+            <img
+              src="https://bootdey.com/img/Content/avatar/avatar2.png"
+              class="img-rounded"
+            />
+            <i class="fa fa-forward"></i>
+          </a>
+          <div class="member-details">
+            <h4><a href="#">Johnnie Linton</a></h4>
+            <div class="row info-list">
+              <div class="col-sm-4">
+                <i class="fa fa-briefcase"></i>
+                Co-Founder at <a href="#">Complete Tech</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-twitter"></i>
+                <a href="#">@johnnie</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-facebook"></i>
+                <a href="#">fb.me/johnnie</a>
+              </div>
+              <div class="clear"></div>
+              <div class="col-sm-4">
+                <i class="fa fa-location"></i>
+                <a href="#">Prishtina</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-envelope"></i>
+                <a href="#">john@gmail.com</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-linkedin"></i>
+                <a href="#">johnkennedy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="member-entry">
+          <a href="#" class="member-img">
+            <img
+              src="https://bootdey.com/img/Content/avatar/avatar3.png"
+              class="img-rounded"
+            />
+            <i class="fa fa-forward"></i>
+          </a>
+          <div class="member-details">
+            <h4><a href="#">Johnnie Linton</a></h4>
+            <div class="row info-list">
+              <div class="col-sm-4">
+                <i class="fa fa-briefcase"></i>
+                Co-Founder at <a href="#">Complete Tech</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-twitter"></i>
+                <a href="#">@johnnie</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-facebook"></i>
+                <a href="#">fb.me/johnnie</a>
+              </div>
+              <div class="clear"></div>
+              <div class="col-sm-4">
+                <i class="fa fa-location"></i>
+                <a href="#">Prishtina</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-envelope"></i>
+                <a href="#">john@gmail.com</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-linkedin"></i>
+                <a href="#">johnkennedy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="member-entry">
+          <a href="#" class="member-img">
+            <img
+              src="https://bootdey.com/img/Content/avatar/avatar4.png"
+              class="img-rounded"
+            />
+            <i class="fa fa-forward"></i>
+          </a>
+          <div class="member-details">
+            <h4><a href="#">Johnnie Linton</a></h4>
+            <div class="row info-list">
+              <div class="col-sm-4">
+                <i class="fa fa-briefcase"></i>
+                Co-Founder at <a href="#">Complete Tech</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-twitter"></i>
+                <a href="#">@johnnie</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-facebook"></i>
+                <a href="#">fb.me/johnnie</a>
+              </div>
+              <div class="clear"></div>
+              <div class="col-sm-4">
+                <i class="fa fa-location"></i>
+                <a href="#">Prishtina</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-envelope"></i>
+                <a href="#">john@gmail.com</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-linkedin"></i>
+                <a href="#">johnkennedy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="member-entry">
+          <a href="#" class="member-img">
+            <img
+              src="https://bootdey.com/img/Content/avatar/avatar5.png"
+              class="img-rounded"
+            />
+            <i class="fa fa-forward"></i>
+          </a>
+          <div class="member-details">
+            <h4><a href="#">Johnnie Linton</a></h4>
+            <div class="row info-list">
+              <div class="col-sm-4">
+                <i class="fa fa-briefcase"></i>
+                Co-Founder at <a href="#">Complete Tech</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-twitter"></i>
+                <a href="#">@johnnie</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-facebook"></i>
+                <a href="#">fb.me/johnnie</a>
+              </div>
+              <div class="clear"></div>
+              <div class="col-sm-4">
+                <i class="fa fa-location"></i>
+                <a href="#">Prishtina</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-envelope"></i>
+                <a href="#">john@gmail.com</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="fa fa-linkedin"></i>
+                <a href="#">johnkennedy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+
+      <div class="w3-black w3-center w3-padding-24">
+        Powered by
+        <a
+          href="https://www.w3schools.com/w3css/default.asp"
+          title="W3.CSS"
+          target="_blank"
+          class="w3-hover-opacity"
+          >w3.css</a
+        >
+      </div>
+
+      <!-- End page content -->
+    </div>
+
+    <script>
+      // Script to open and close sidebar
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+      }
+
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+      }
+
+      // Modal Image Gallery
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }
+    </script>
+  </body>
+</html>
